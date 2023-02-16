@@ -28,16 +28,17 @@ public class exercicio_01_Fila {
 			System.out.println("--------------------------------------------");
 			System.out.println("Controle de Clientes em Fila: ");
 			System.out.println("1 - Adicionar cliente na fila");
-			System.out.println("2 - Listar todos os Slientes");
-			System.out.println("3 - Retirar cliente da Fila");
+			System.out.println("2 - Listar todos os Clientes");
+			System.out.println("3 - Retirar Cliente da Fila");
 			System.out.println("0 - Sair");
 			System.out.println("--------------------------------------------");
 			opcao = leia.nextInt();
 
 			switch (opcao) {
 			case 1:
-				System.out.println("Adicione um cliente: ");
-				((LinkedList<String>) fila).push(nome = leia.next());
+				System.out.print("Adicione um cliente: ");
+				leia.skip("\\R?");
+				((LinkedList<String>) fila).push(nome = leia.nextLine());
 				System.out.println("Cliente adicionado com sucesso!");
 				break;
 			case 2:

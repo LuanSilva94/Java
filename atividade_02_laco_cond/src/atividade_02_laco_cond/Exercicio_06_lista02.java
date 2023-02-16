@@ -2,7 +2,7 @@ package atividade_02_laco_cond;
 
 import java.util.Scanner;
 
-public class Exercicio_06lista02 {
+public class Exercicio_06_lista02 {
 
 	/*
 	 * 06)Com base na tabela abaixo, escreva um algoritmo em Java que leia o Nome do

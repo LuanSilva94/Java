@@ -20,7 +20,7 @@ public class Exercicio_01_collection_Arraylist {
 		ArrayList<String> cores = new ArrayList<String>();
 		String cor = null;
 
-		for (int i = 0; i < 3; i++) {
+		for (int i = 0; i < 5; i++) {
 			System.out.print("\nEntre com uma cor: ");
 			cor = leia.next();
 			cores.add(cor);

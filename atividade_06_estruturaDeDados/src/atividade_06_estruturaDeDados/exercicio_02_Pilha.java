@@ -1,6 +1,5 @@
 package atividade_06_estruturaDeDados;
 
-import java.util.LinkedList;
 import java.util.Scanner;
 import java.util.Stack;
 
@@ -32,8 +31,9 @@ public class exercicio_02_Pilha {
 			switch (opcao) {
 			case 1:
 				System.out.println("Adicionar livro na pilha: ");
-				System.out.println("Qual o nome do livro: ");
-				pilha.push( livro = leia.next());
+				System.out.print("Qual o nome do livro: ");
+				leia.skip("\\R?");
+				pilha.push(livro = leia.nextLine());
 				System.out.println("Livro adicionado com sucesso!");
 				break;
 			case 2:
