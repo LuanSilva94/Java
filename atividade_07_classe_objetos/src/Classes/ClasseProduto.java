@@ -1,4 +1,4 @@
-package Classes;
+	package Classes;
 
 public class ClasseProduto {
 	private String name;
@@ -56,11 +56,14 @@ public class ClasseProduto {
 		this.launchYear = launchYear;
 	}
 
-	public void toView() {
-		System.out.println("Name: " + getName());
-		System.out.println("Category: " + getCategory());
-		System.out.println("Price: "+"U$$"  + getPrice());
-		System.out.println("Amount: " + getAmount() + "unit(s)" );
-		System.out.println("Launch Year: " + getLaunchYear() + "\n\n");
-	}
+		public void toView(){
+			System.out.println("\n\n"+"***************************************");
+			System.out.println("          CADASTRO PRODUTO                                                ");
+			System.out.println("***************************************");
+			System.out.println("\nName: "+ this.name);
+			System.out.println("\nCategory: " + this.category);
+			System.out.println("\nPrice: " + this.price);
+			System.out.println("\nAmount: " + this.amount);
+			System.out.println("\nLaunch Year: " + this.launchYear);
+		}
 }

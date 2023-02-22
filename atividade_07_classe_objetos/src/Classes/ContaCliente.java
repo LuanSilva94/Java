@@ -45,10 +45,13 @@ public class ContaCliente {
 		}
 		
 		public void toView(){
-			System.out.println("Name: "+ getName());
-			System.out.println("Age " + getAge());
-			System.out.println("Sex: " + getSex());
-			System.out.println("ID: " + getId());
-			System.out.println("City: " + getCity() + "\n\n");
+			System.out.println("\n\n"+"***************************************");
+			System.out.println("          CADASTRO PRODUTO                                                ");
+			System.out.println("***************************************");
+			System.out.println("\nName: "+ this.name);
+			System.out.println("\nAge " + this.age);
+			System.out.println("\nSex: " + this.sex);
+			System.out.println("\nID: " + this.id);
+			System.out.println("\nCity: " + this.city + "\n\n");
 		}
 }
