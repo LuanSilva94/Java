@@ -46,7 +46,7 @@ public class ContaCliente {
 		
 		public void toView(){
 			System.out.println("\n\n"+"***************************************");
-			System.out.println("          CADASTRO PRODUTO                                                ");
+			System.out.println("          CADASTRO PESSOAS                                                ");
 			System.out.println("***************************************");
 			System.out.println("\nName: "+ this.name);
 			System.out.println("\nAge " + this.age);
