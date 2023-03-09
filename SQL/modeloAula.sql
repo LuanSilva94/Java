@@ -22,3 +22,5 @@ set SQL_SAFE_UPDATES = 0;
 
 -- atualização de um dado dentro da minha tabela
 update tb_produtos set preco = 7.90 where id = 2;
+
+

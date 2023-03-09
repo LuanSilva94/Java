@@ -15,8 +15,6 @@ INSERT INTO tb_funcionarios(nome,cargo,salario,idade,genero) VALUES("Luan","Dev 
 ("Fernanda","Estagiaria",1800.00,21,"Feminino"),("Marta","Gerente de Projetos",35000.00,32,"Feminino"),
 ("Paulo","Dev Sênior",20000.00,37,"Masculino");
 
-SELECT *FROM tb_funcionarios WHERE salario > 2000.00;
-
 SELECT *FROM tb_funcionarios WHERE salario < 2000.00;
 
 SET SQL_SAFE_UPDATES = 0;
